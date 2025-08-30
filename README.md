@@ -28,7 +28,7 @@ O projeto deve ter inicialmente as seguintes funcionalidades:
 4. **Utilizar referências nas listagens:** Quando o usuário clicar em algum filtro, esse filtro não pode ficar cortado para fora da tela, ele tem que ficar centralizado ao mesmo tempo que a cada clique do filtro, deve ser feito um scroll pro início da listagem de mesas.
 5. **Otimização:** O aplicativo deverá funcionar no mínimo em dispositivos de 1gb de ram e 8gb de armazenamento, por isso a otimização é um dos pilares do projeto.
 6. **Responsividade:** O aplicativo deverá rodar no Android onde a densidade de pixels varia muito, o aplicativo não deverá quebrar em nenhum momento.
-7. **Simular consulta de mesas via API REST.** Para este passo, você vai utilizar o arquivo mock.txt como se fosse a resposta de uma API REST. Imagine que o sistema está fazendo uma requisição GET /mesas e recebendo do servidor todas as mesas disponíveis.
+7. **Simular consulta de mesas via API REST.** Para este passo, você vai utilizar o arquivo `mock.txt` como se fosse a resposta de uma API REST. Imagine que o sistema está fazendo uma requisição GET /mesas e recebendo do servidor todas as mesas disponíveis.
 8. **Utilizar Room:** a aplicação deverá pegar todas as mesas e armazenar as mesas.
 9. **Componentização:** A componentização é essencial para manter um padrão de design consistente no aplicativo. O uso de componentes globais não só garante uniformidade na interface, mas também melhora a reutilização de código, a manutenção e a escalabilidade da aplicação.
 
