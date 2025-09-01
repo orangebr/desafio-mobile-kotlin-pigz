@@ -29,7 +29,7 @@ O projeto deve ter inicialmente as seguintes funcionalidades:
 5. **Otimização:** O aplicativo deverá funcionar no mínimo em dispositivos de 1gb de ram e 8gb de armazenamento, por isso a otimização é um dos pilares do projeto.
 6. **Responsividade:** O aplicativo deverá rodar no Android onde a densidade de pixels varia muito, o aplicativo não deverá quebrar em nenhum momento.
 7. **Simular consulta de mesas via API REST.** Para este passo, você vai utilizar o arquivo `mock.txt` como se fosse a resposta de uma API REST. Imagine que o sistema está fazendo uma requisição GET /mesas e recebendo do servidor todas as mesas disponíveis.
-8. **Utilizar Room:** a aplicação deverá pegar todas as mesas e armazenar as mesas.
+8. **Utilizar Room ou DataStore:** a aplicação deverá pegar todas as mesas e armazenar as mesas.
 9. **Componentização:** A componentização é essencial para manter um padrão de design consistente no aplicativo. O uso de componentes globais não só garante uniformidade na interface, mas também melhora a reutilização de código, a manutenção e a escalabilidade da aplicação.
 
 Opcional: O aplicativo deve conter 2 testes, o primeiro vai testar as funções de filtros e pesquisa e o segundo teste deverá ser para testar a renderização de uma mesa(cores, informações da mesa, etc).
